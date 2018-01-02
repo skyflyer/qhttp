@@ -8,10 +8,10 @@ Just because I felt like it and coding is fun. I've been using `python -m Simple
 
 # Installation
 
-* `brew install qhttp`
+* Install using Homebrew: `brew install qhttp`
+* Download [binary](https://github.com/skyflyer/qhttp/releases/download/v0.1.0/qhttp.v0.1.0.zip) and extract. Copy to `/usr/local/bin`.
 
 ## From source
 
-1. Clone this repo and
-1. `go install`
+1. `go get github.com/skyflyer/qhttp`
 1. Execute `qhttp` from a directory you wish to serve.
