@@ -8,10 +8,15 @@ Just because I felt like it and coding is fun. I've been using `python -m Simple
 
 # Installation
 
-* Install using Homebrew: `brew install qhttp`
-* Download [binary](https://github.com/skyflyer/qhttp/releases/download/v0.1.0/qhttp.v0.1.0.zip) and extract. Copy to `/usr/local/bin`.
+* Install using Homebrew: `brew install skyflyer/homebrew-skyflyer-tap/qhttp`
+* Download [binary](https://github.com/skyflyer/qhttp/releases/download/v0.1.0/qhttp.v0.1.0.zip) and extract. Copy to `/usr/local/bin` or somewhere else on your `$PATH`.
 
 ## From source
 
 1. `go get github.com/skyflyer/qhttp`
+
+## How to use
+
 1. Execute `qhttp` from a directory you wish to serve.
+
+If you want to use a different listening port, use `qhttp -port 3000` to listen on port 3000.
